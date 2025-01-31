@@ -1,56 +1,52 @@
-    <h1>Paremecy - Java Desktop Application</h1>
-    <p><strong>Description:</strong> Paremecy is a Java-based desktop application designed for managing orders, categories, and customer information using a MySQL database.</p>
+# Paremecy - Java Desktop Application
 
-    <h2>Features:</h2>
-    <ul>
-        <li>Home Page - Overview of the application.</li>
-        <li>View Order - Display and manage orders.</li>
-        <li>Category - Manage product categories.</li>
-        <li>Order - Create and track customer orders.</li>
-        <li>Customer - Manage customer information.</li>
-        <li>Logout - Securely end user sessions.</li>
-    </ul>
+## Description
+Paremecy is a Java-based desktop application designed for managing orders, categories, and customer information using a MySQL database.
 
-    <h2>Database Structure:</h2>
-    <ul>
-        <li><strong>Home</strong>: Displays application overview and statistics.</li>
-        <li><strong>ViewOrder</strong>: Table to display and manage all orders.</li>
-        <li><strong>Category</strong>: Table for storing product categories.</li>
-        <li><strong>Order</strong>: Table for creating and tracking orders.</li>
-        <li><strong>Customer</strong>: Table for managing customer details.</li>
-    </ul>
+## Features
+- **Home Page** - Overview of the application.
+- **Login** - Secure user authentication.
+- **Admin Page** - Manage application settings and users.
+- **View Order** - Display and manage orders.
+- **Category** - Manage product categories.
+- **Order** - Create and track customer orders.
+- **Customer** - Manage customer information.
+- **Logout** - Securely end user sessions.
 
-    <h2>Technologies Used:</h2>
-    <ul>
-        <li>Java (Swing for GUI)</li>
-        <li>MySQL (Database)</li>
-        <li>JDBC (Database Connectivity)</li>
-    </ul>
+## Database Structure
+- **Home**: Displays application overview and statistics.
+- **Login**: Handles user authentication.
+- **Admin Page**: Stores and manages admin-related data.
+- **ViewOrder**: Table to display and manage all orders.
+- **Category**: Table for storing product categories.
+- **Order**: Table for creating and tracking orders.
+- **Customer**: Table for managing customer details.
 
-    <h2>Setup Instructions:</h2>
-    <ol>
-        <li>Install Java JDK (version 8 or higher).</li>
-        <li>Install MySQL and create the necessary database and tables.</li>
-        <li>Configure the <code>db.properties</code> file with your database credentials.</li>
-        <li>Compile and run the application using your preferred IDE (e.g., Eclipse, IntelliJ).</li>
-    </ol>
+## Technologies Used
+- Java (Swing for GUI)
+- MySQL (Database)
+- JDBC (Database Connectivity)
 
-    <h2>Usage:</h2>
-    <p>Once the application is launched, you can navigate through the following:</p>
-    <ul>
-        <li><strong>Home:</strong> View basic application stats and navigation.</li>
-        <li><strong>View Order:</strong> Browse and manage existing orders.</li>
-        <li><strong>Category:</strong> Add, edit, or delete product categories.</li>
-        <li><strong>Order:</strong> Create new orders and assign them to customers.</li>
-        <li><strong>Customer:</strong> View and manage customer details.</li>
-        <li><strong>Logout:</strong> Safely exit the application.</li>
-    </ul>
+## Setup Instructions
+1. Install Java JDK (version 8 or higher).
+2. Install MySQL and create the necessary database and tables.
+3. Configure the `db.properties` file with your database credentials.
+4. Compile and run the application using your preferred IDE (e.g., Eclipse, IntelliJ).
 
-    <h2>Author:</h2>
-    <p>Mohamed Hussien Fawzy</p>
+## Usage
+Once the application is launched, you can navigate through the following:
+- **Home:** View basic application stats and navigation.
+- **Login:** Enter credentials to access the system.
+- **Admin Page:** Manage application settings and users.
+- **View Order:** Browse and manage existing orders.
+- **Category:** Add, edit, or delete product categories.
+- **Order:** Create new orders and assign them to customers.
+- **Customer:** View and manage customer details.
+- **Logout:** Safely exit the application.
 
-    <h2>Contact:</h2>
-    <ul>
-        <li>Email: <a href="mailto:dev.mohamedfawzi@gmail.com">dev.mohamedfawzi@gmail.com</a></li>
-        <li>LinkedIn: <a href="https://linkedin.com/in/mohamedhussien303/">linkedin.com/in/mohamedhussien303</a></li>
-    </ul>
+## Author
+**Mohamed Hussien Fawzy**
+
+## Contact
+- **Email:** [dev.mohamedfawzi@gmail.com](mailto:dev.mohamedfawzi@gmail.com)
+- **LinkedIn:** [linkedin.com/in/mohamedhussien303](https://linkedin.com/in/mohamedhussien303/)
